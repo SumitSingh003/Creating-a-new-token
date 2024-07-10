@@ -6,9 +6,9 @@ A contract to create your own ERC20 Token.
 
 This `My_New_Token` demonstrates the creation and use of a simple ERC20 token.
 In this contract:
-*Only contract owner should be able to mint tokens
-*Any user can transfer tokens
-*Any user can burn tokens
+* Only contract owner should be able to mint tokens
+* Any user can transfer tokens
+* Any user can burn tokens
 
 ## Getting Started
 
