@@ -4,7 +4,7 @@ A contract to create your own ERC20 Token.
 
 ## Description
 
-This `My_New_Token` demonstrates the creation and use of a simple ERC20 token.
+This `My_New_Token` contract demonstrates the creation and use of a simple ERC20 token.
 In this contract:
 * Only contract owner is able to mint tokens
 * Any user can transfer tokens
