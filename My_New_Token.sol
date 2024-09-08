@@ -18,4 +18,9 @@ contract My_New_Token is ERC20 {
     function burn(uint256 amount) public {
         _burn(msg.sender, amount);
     }
+
+    function transferTokens(address recipient, uint256 amount) public {
+        require(balanceOf(msg.sender) >= amount, "Insufficient balance");
+        _transfer(msg.sender, recipient, amount);
+    }
 }
